@@ -1,0 +1,5 @@
+on early-init && property:ro.boot.use_reaos_omx=*
+    setprop sys.use_reaos_omx ${ro.boot.use_reaos_omx}
+
+on early-init && property:ro.boot.use_reaos_vaapi=*
+    setprop sys.use_reaos_vaapi ${ro.boot.use_reaos_vaapi}
