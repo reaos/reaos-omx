@@ -18,7 +18,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_SRC_FILES := \
-    RedroidOMXPlugin.cpp                      \
+    ReaosOMXPlugin.cpp                      \
 
 LOCAL_HEADER_LIBRARIES := media_plugin_headers
 
